@@ -145,8 +145,7 @@
   position: absolute;
   width: 320px;
   height: 320px;
-  border-radius: 50%;
-  border: 10px solid rgba(249, 115, 22, 0.35);
+ 
   z-index: 0;
 }
 
