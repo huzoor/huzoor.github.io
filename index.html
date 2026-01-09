@@ -1,79 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Huzoor Ali | Software Developer</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css" />
+<head>
+    <meta charset="utf-8">
+    <title>Huzoor Ali - AI Engineer & Full Stack Developer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-  <h1>Huzoor Ali</h1>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
-
-<section class="hero">
-  <div>
-    <h2>Hello<span>.</span></h2>
-    <h2>I'm Huzoor</h2>
-    <h3>Software Developer</h3>
-    <p>
-      Senior Software Engineer with 10+ years of experience building
-      cloud-ready, scalable applications using Angular, React, Node.js, and AWS.
-    </p>
-    <div class="buttons">
-      <a class="btn-primary" href="#">Got a project?</a>
-      <a class="btn-outline" href="#">My resume</a>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
     </div>
-  </div>
+    <!-- Spinner End -->
 
-  <div class="hero-img">
-    <!-- Replace with your photo -->
-    <img src="./assets/img/ali.jpg" alt="Profile photo" />
-  </div>
-</section>
 
-<section class="services">
-  <div>
-    <div class="service-item">
-      <div class="icon">&lt;/&gt;</div>
-      <strong>Website Development</strong>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-section border-0">
+        <nav class="navbar navbar-light">
+            <div class="navbar-nav flex-column">
+                <a href="#pigraHome" class="nav-item nav-link active"><span class="fa fa-home"></span> Ali</a>
+                <a href="#pigraAbout" class="nav-item nav-link"><span class="far fa-address-card"></span> About</a>
+                <a href="#pigraService" class="nav-item nav-link"><span class="fab fa-servicestack"></span> Skills</a>
+                <a href="#pigraContact" class="nav-item nav-link"><span class="fas fa-address-book"></span>
+                    Education</a>
+            </div>
+        </nav>
     </div>
-    <div class="service-item">
-      <div class="icon">{ }</div>
-      <strong>App Development</strong>
-    </div>
-    <div class="service-item">
-      <div class="icon">☁</div>
-      <strong>Cloud & DevOps</strong>
-    </div>
-  </div>
+    <!-- Navbar End -->
 
-  <div class="about">
-    <h2>About me</h2>
-    <p>
-      I design and build high-quality software systems with a strong focus
-      on clean architecture, performance, and scalability.
-    </p>
-    <div class="stats">
-      <div class="stat"><strong>10+</strong><span>Years Experience</span></div>
-      <div class="stat"><strong>120+</strong><span>Projects</span></div>
-      <div class="stat"><strong>95%</strong><span>Client Satisfaction</span></div>
+    <!-- Header Start -->
+    <div class="container-fluid" id="pigraHome">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-12 col-lg-3">
+                    <div class="header-content bg-dark h-100 pt-6 pe-6 pb-6">
+                        <a href="index.html" class="navbar-brand d-inline-flex pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                            <h1 class="display-6 text-white mb-0">Huzoor Ali.</h1>
+                        </a>
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.3s">
+                            <p class="text-white sub-title">👋 Hello I'm Huzoor</p>
+                            <h1 class="display-6 text-white mb-0"> Engineer at Oracle | Full-Stack| GenAI | Ex.
+                                Cisco
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-5">
+                            <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="bg-light p-4" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;">
+                                    <img src="img/header-img.png" class="img-fluid w-100"
+                                        style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;" alt="Image">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <h1 class="display-6 mb-4 fjost">GenAI Engineer & Full Stack Developer</h1>
+                                <p class="mb-4">Innovative and results-driven Full-Stack Engineering Leader with over a
+                                    decade of experience in building scalable web applications and leading
+                                    high-performing teams.
+                                </p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                    <p class="text-dark mb-0">Bengaluru, Karnataka, India</p>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fas fa-envelope text-primary me-3"></i>
+                                    <p class="text-dark mb-0"><a
+                                            href="mailto:huzoorittech@gmail.com">huzoorittech@gmail.com</a></p>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fa fa-phone-alt text-primary me-3"></i>
+                                    <p class="text-dark mb-0"><a href="tel:+919948023763">+91- 99480 23763</a></p>
+                                </div>
+                                <div class="d-flex align-items-center mb-4">
+                                    <i class="fab fa-firefox-browser text-primary me-3"></i>
+                                    <p class="text-dark mb-0"><a
+                                            href="https://huzoor.netlify.app">huzoor.netlify.app</a></p>
+                                </div>
+                                <div class="d-flex">
+                                    <a class="btn btn-primary btn-sm-square me-3"
+                                        href="https://www.linkedin.com/in/huzoor-ali/"><i
+                                            class="fab fa-linkedin-in text-white"></i></a>
+                                    <a class="btn btn-primary btn-sm-square me-3" href="https://github.com/huzoor"><i
+                                            class="fab fa-github text-white"></i></a>
+                                    <a class="btn btn-primary btn-sm-square me-0"
+                                        href="mailto:huzoorittech@gmail.com"><i
+                                            class="fas fa-envelope text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</section>
+    <!-- Header End -->
 
-<footer>
-  © 2025 Huzoor Ali · Hosted on GitHub Pages
-</footer>
 
+    <!-- About Start -->
+    <div class="container-fluid" id="pigraAbout">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-12 col-lg-3">
+                    <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">About Me</p>
+                            <h1 class="display-6 text-white mb-0">Engineering Leader based in Bengaluru, India</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="about-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-5">
+                            <div class="col-xl-5">
+                                <div class="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                    <img src="img/huzoor_pro.jpg" class="img-fluid w-100" alt="Image">
+
+                                </div>
+                            </div>
+                            <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                                <h4 class="mb-4 fjost">Hello, I'm Huzoor Ali</h4>
+                                <p class="mb-4">Principal-level Engineering Leader with 10+ years of experience
+                                    designing and scaling complex, distributed platforms. Expert in system architecture,
+                                    microservices, frontend and backend engineering, and cloud-native delivery. Proven
+                                    in driving engineering excellence, reliability, and performance while mentoring
+                                    teams and translating business goals into robust technical solutions.
+                                </p>
+                                <div class="row g-4 mb-4">
+                                    <div class="col-8">
+                                        <p><strong class="fw-bold text-dark">Phone :</strong>
+                                            <a href="tel:+919948023763">+91- 99480 23763</a>
+                                        </p>
+                                        <p><strong class="fw-bold text-dark">Email :</strong>
+                                            <a href="mailto:huzoorittech@gmail.com">huzoorittech@gmail.com</a>
+                                        </p>
+                                        <p><strong class="fw-bold text-dark">Linkedin :</strong>
+                                            <a
+                                                href="https://linkedin.com/in/huzoor-ali/">linkedin.com/in/huzoor-ali/</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid" id="pigraService">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="service-header h-100 bg-dark pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">My Skills</p>
+                            <h1 class="display-6 text-white mb-0">Technical Skills</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="service-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4">
+                            <!-- Languages -->
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item p-4">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="btn-md-square bg-primary rounded-circle me-3">
+                                            <i class="fas fa-code text-white"></i>
+                                        </div>
+                                        <h4 class="mb-0">Languages</h4>
+                                    </div>
+                                    <div class="d-flex flex-wrap">
+                                        <span class="skill-tag">JavaScript (ES6+)</span>
+                                        <span class="skill-tag">TypeScript</span>
+                                        <span class="skill-tag">PHP</span>
+                                        <span class="skill-tag">Python (Beginner)</span>
+                                        <span class="skill-tag">Shell Scripts</span>
+                                        <span class="skill-tag">SQL</span>
+                                        <span class="skill-tag">HTML5</span>
+                                        <span class="skill-tag">CSS3</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Frontend -->
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="service-item p-4">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="btn-md-square bg-primary rounded-circle me-3">
+                                            <i class="fas fa-desktop text-white"></i>
+                                        </div>
+                                        <h4 class="mb-0">Frontend</h4>
+                                    </div>
+                                    <div class="d-flex flex-wrap">
+                                        <span class="skill-tag">React.js</span>
+                                        <span class="skill-tag">Angular (4-16+)</span>
+                                        <span class="skill-tag">AngularJS</span>
+                                        <span class="skill-tag">Redux</span>
+                                        <span class="skill-tag">Saga</span>
+                                        <span class="skill-tag">ImmutableJS</span>
+                                        <span class="skill-tag">jQuery</span>
+                                        <span class="skill-tag">Sass/SCSS</span>
+                                        <span class="skill-tag">Bootstrap</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Cloud -->
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="service-item p-4">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="btn-md-square bg-primary rounded-circle me-3">
+                                            <i class="fas fa-cloud text-white"></i>
+                                        </div>
+                                        <h4 class="mb-0">Cloud & AI</h4>
+                                    </div>
+                                    <div class="d-flex flex-wrap">
+                                        <span class="skill-tag">AWS</span>
+                                        <span class="skill-tag">Scalability</span>
+                                        <span class="skill-tag">Generative AI</span>
+                                        <span class="skill-tag">LLMs</span>
+                                        <span class="skill-tag">RAG</span>
+                                        <span class="skill-tag">LangChain</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Backend -->
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="service-item p-4">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="btn-md-square bg-primary rounded-circle me-3">
+                                            <i class="fas fa-server text-white"></i>
+                                        </div>
+                                        <h4 class="mb-0">Backend</h4>
+                                    </div>
+                                    <div class="d-flex flex-wrap">
+                                        <span class="skill-tag">Node.js</span>
+                                        <span class="skill-tag">MEAN Stack</span>
+                                        <span class="skill-tag">MERN Stack</span>
+                                        <span class="skill-tag">Express.js</span>
+                                        <span class="skill-tag">RESTful APIs</span>
+                                        <span class="skill-tag">Microservices</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Database -->
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="service-item p-4">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="btn-md-square bg-primary rounded-circle me-3">
+                                            <i class="fas fa-database text-white"></i>
+                                        </div>
+                                        <h4 class="mb-0">Database</h4>
+                                    </div>
+                                    <div class="d-flex flex-wrap">
+                                        <span class="skill-tag">MongoDB</span>
+                                        <span class="skill-tag">MySQL</span>
+                                        <span class="skill-tag">PostgreSQL</span>
+                                        <span class="skill-tag">VectorDB</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tools -->
+                            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="service-item p-4">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="btn-md-square bg-primary rounded-circle me-3">
+                                            <i class="fas fa-tools text-white"></i>
+                                        </div>
+                                        <h4 class="mb-0">DevOps & Tools</h4>
+                                    </div>
+                                    <div class="d-flex flex-wrap">
+                                        <span class="skill-tag">Jenkins</span>
+                                        <span class="skill-tag">Docker</span>
+                                        <span class="skill-tag">Kubernetes</span>
+                                        <span class="skill-tag">GitLab</span>
+                                        <span class="skill-tag">Git</span>
+                                        <span class="skill-tag">Webpack</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Education Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Education</p>
+                            <h1 class="display-6 text-white mb-0">My education qualification</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="education-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <h4 class="mb-0 me-3">Master of Technology - Computer Science</h4>
+                                    </div>
+                                    <p class="fs-5 mb-1 text-primary">JNTUH College of Engineering</p>
+                                    <div class="mb-3 text-muted" style="font-size: 0.9rem;">
+                                        <span class="fa fa-calendar me-2"></span> 2013 - 2015
+                                        <span class="mx-2">•</span> Hyderabad, India
+                                    </div>
+                                    <p class="mb-0">Grade: A+</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <h4 class="mb-0 me-3">Bachelor of Technology - Computer Science</h4>
+                                    </div>
+                                    <p class="fs-5 mb-1 text-primary">JNTUA College of Engineering</p>
+                                    <div class="mb-3 text-muted" style="font-size: 0.9rem;">
+                                        <span class="fa fa-calendar me-2"></span> 2009 - 2013
+                                        <span class="mx-2">•</span> Anantapur, India
+                                    </div>
+                                    <p class="mb-0">Grade: A+</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Education End -->
+
+    <!-- Experience Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-3">
+                    <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
+                        <div class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <p class="text-white sub-title">Experience</p>
+                            <h1 class="display-6 text-white mb-0">My real work experience</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="experience-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <h4 class="mb-0 me-3">Senior Software Engineer</h4>
+                                    </div>
+                                    <p class="fs-5 mb-1 text-primary">Oracle India Pvt. Ltd.</p>
+                                    <div class="mb-3 text-muted" style="font-size: 0.9rem;">
+                                        <span class="fa fa-calendar me-2"></span> Jan 2025 - Present
+                                        <span class="mx-2">•</span> Bengaluru, India
+                                    </div>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <h4 class="mb-0 me-3">Software Consulting Engineer</h4>
+                                    </div>
+                                    <p class="fs-5 mb-1 text-primary">Cisco Systems India Pvt. Ltd.</p>
+                                    <div class="mb-3 text-muted" style="font-size: 0.9rem;">
+                                        <span class="fa fa-calendar me-2"></span> June 2020 - Jan 2025
+                                        <span class="mx-2">•</span> Bengaluru, India
+                                    </div>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="d-flex align-items-center mb-1">
+                                        <h4 class="mb-0 me-3">Software Engineer</h4>
+                                    </div>
+                                    <p class="fs-5 mb-1 text-primary">General Electric Company</p>
+                                    <div class="mb-3 text-muted" style="font-size: 0.9rem;">
+                                        <span class="fa fa-calendar me-2"></span> Jan 2016 - May 2020
+                                        <span class="mx-2">•</span> Bengaluru, India
+                                    </div>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Exparience End -->
+
+
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-dark border-bottom-0">
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-12">
+                    <div class="footer-content h-100 pt-6 ps-6 pb-6">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="d-flex justify-content-center">
+                                    <a class="btn btn-light btn-md-square me-3"
+                                        href="https://www.linkedin.com/in/huzoor-ali/"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-light btn-md-square me-3" href="https://github.com/huzoor"><i
+                                            class="fab fa-github"></i></a>
+                                    <a class="btn btn-light btn-md-square me-0" href="mailto:huzoorittech@gmail.com"><i
+                                            class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                            class="fas fa-copyright text-body me-2"></i>huzoor.netlify.app</a>, All
+                                    right
+                                    reserved.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
